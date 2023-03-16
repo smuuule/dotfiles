@@ -10,11 +10,13 @@ echo ".cfg" >> .gitignore
 git clone --bare https://github.com/smuuule/dotfiles $HOME/dotfiles
 
 config checkout
+
+feh --bg-scale path/to/image
 ```
 
 # Prerequisites
 ```
-pip install --user bumblebee-status // Status Bar
+apt install rofi feh
 
-apt install rofi
+pip install --user bumblebee-status // Status Bar
 ```
