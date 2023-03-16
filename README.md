@@ -3,7 +3,7 @@ Dotfiles for my personal system
 
 # Configuration
 ```
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 echo ".cfg" >> .gitignore
 
