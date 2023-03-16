@@ -190,5 +190,6 @@ bar {
 	status_command ~/.local/bin/bumblebee-status \
 		-m playerctl pulseout pulsein nic cpu memory weather date time \
 		-p root.path=/ time.format="%H:%M CW %V" date.format="%a, %d %b %Y" \
+		   memory.format="{percent:05.02f}%" \
 		-t dracula-powerline
 }
